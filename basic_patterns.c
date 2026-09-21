@@ -2,12 +2,12 @@
 
 int main(){
     
-    /*for(int i=0; i<4; i++){
+    for(int i=0; i<4; i++){
         for(int j=0; j<=i; j++){
             printf("* ");
         }
         printf("\n");
-    }*/
+    }
 
     for(int i=0; i<5; i++){
         for(int j=4; j>i; j--){
@@ -16,7 +16,7 @@ int main(){
         printf("\n");
     }
 
-    /*for(int i=0; i<5; i++){
+    for(int i=0; i<5; i++){
         for(int j=4; j>i; j--){
             printf(" ");
         }
@@ -24,5 +24,5 @@ int main(){
             printf(" *");
         }
         printf("\n");
-    }*/
+    }
 }
