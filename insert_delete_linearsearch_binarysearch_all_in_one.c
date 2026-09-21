@@ -3,14 +3,12 @@
 #include<ctype.h>
 
 void options(){
-    printf("-----------------------------------------\n");
     printf("|  1. Display the entire array          |\n");
     printf("|  2. Insert an element in an array     |\n");
     printf("|  3. Delete an element from an array   |\n");
     printf("|  4. Linear searching from 1D array    |\n");
     printf("|  5. Binary searching using iteration  |\n");
     printf("|  6. Binary searching using recurtion  |\n");
-    printf("-----------------------------------------\n");
 }
 
 int insert(int array[], int size, int target, int location){
@@ -172,7 +170,5 @@ int main(){
         scanf(" %c", &repeat);
         repeat = tolower(repeat);
     }while(repeat == 'y');
-    printf("---------------------\n");
     printf("|     Thank You     |\n");
-    printf("---------------------");
 }
