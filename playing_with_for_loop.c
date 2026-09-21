@@ -1,20 +1,20 @@
 #include<stdio.h>
 
 int main(){
-    //int i;
-    /*for(i=0;i<5;i++){
+       int i;
+    for(i=0;i<5;i++){
         printf("DSA\n");
-    }*/
-    /*for(;i<5;i++){
+    }
+    for(;i<5;i++){
         printf("DSA\n");
-    }*/
-    /*for(i=0;i++){
+    }
+    for(i=0;i++){
         printf("DSA\n");
-    }*/
-    /*for(i=0;i<5;){
+    }
+    for(i=0;i<5;){
         printf("DSA\n");
-    }*/
-    /*for(;;){
+    }
+    for(;;){
         printf("DSA\n");
-    }*/
+    }*
 }
